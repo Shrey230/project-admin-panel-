@@ -1,0 +1,20 @@
+{
+    "development": {
+        "PORT": 4000,
+        "MONGO_HOST": "localhost",
+        "MONGO_PORT": "27017",
+        "MONGO_DB_NAME": "capstone",
+        "JWT_SECRET": "development",
+        "STRIPE_PUBLISHABLE_KEY": "pk_test_51JipKvJSijMdla1x0pJ2EjkQpvgsfESI7zbqPwExNQ9nHlGTy2XUXk0kZc2Tq9J6XiYmzGm5umC3U9gP2zetDD6K00TOImtlbb",
+        "STRIPE_SECRET_KEY": "sk_test_51JipKvJSijMdla1xV2CFDPtglcS6QUpeyBR131fTAFAeHltNaqSDACTlCBSV3ijCq1Mm1LlcW97MBVpbFYvsHLuw00sGEwaDno"
+    },
+    "test": {
+        "PORT": 4000,
+        "MONGO_PORT": "27017",
+        "MONGO_HOST": "localhost",
+        "MONGO_DB_NAME": "capstone-test",
+        "JWT_SECRET": "test",
+        "STRIPE_PUBLISHABLE_KEY": "pk_test_51JipKvJSijMdla1x0pJ2EjkQpvgsfESI7zbqPwExNQ9nHlGTy2XUXk0kZc2Tq9J6XiYmzGm5umC3U9gP2zetDD6K00TOImtlbb",
+        "STRIPE_SECRET_KEY": "sk_test_51JipKvJSijMdla1xV2CFDPtglcS6QUpeyBR131fTAFAeHltNaqSDACTlCBSV3ijCq1Mm1LlcW97MBVpbFYvsHLuw00sGEwaDno"
+    }
+}
