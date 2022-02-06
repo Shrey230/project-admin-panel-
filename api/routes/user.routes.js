@@ -6,13 +6,22 @@ const userService = require('../services/user.service');
 // Initialize router
 const userRouter = express.Router();
 
-userRouter.post('/', async function (req, res, next) {
+userRouter.post('/register', async function (req, res, next) {
     try {
         const result = await userService.createUser(req.body);
         httpResponse.sendSuccess(res, "User created successfully", result);
     }catch (e) {
         httpResponse.sendFailure(res, e.message);
     }
+});
+
+userRouter.get('/', async function (req, res, next) {
+  try {
+    const result = await userService.createUser(req.body);
+    httpResponse.sendSuccess(res, "User created successfully", result);
+  } catch (e) {
+    httpResponse.sendFailure(res, e.message);
+  }
 });
 
 userRouter.post('/login', async function (req, res, next) {
